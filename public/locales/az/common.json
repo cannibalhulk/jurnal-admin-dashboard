@@ -1,0 +1,145 @@
+{
+  "pages": {
+    "login": {
+      "title": "Hesabınıza giriş edin",
+      "signin": "Giriş",
+      "signup": "Qeydiyyat",
+      "divider": "or",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Daxil ol",
+        "forgotPassword": "Şifrənizi unutmusunuz?",
+        "noAccount": "Hesabınız yoxdur?",
+        "rememberMe": "Məni xatırla"
+      }
+    },
+    "forgotPassword": {
+      "title": "Şifrənizi unutmusunuz?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Send reset instructions"
+      }
+    },
+    "register": {
+      "title": "Yeni hesab üçün qeydiyyatdan keçin",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Qeydiyyat ol",
+        "haveAccount": "Hesabınız var?"
+      }
+    },
+    "updatePassword": {
+      "title": "Şifrəni yenilə",
+      "fields": {
+        "password": "Yeni şifrə",
+        "confirmPassword": "Yeni şifrəni təsdiqlə"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Şifrələr uyğun deyil"
+      },
+      "buttons": {
+        "submit": "Yenilə"
+      }
+    },
+    "error": {
+      "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+      "404": "Bu səhifə mövcud deyil",
+      "resource404": "Are you sure you have created the {{resource}} resource.",
+      "backHome": "Geri"
+    }
+  },
+  "actions": {
+    "list": "List",
+    "create": "Yarat",
+    "edit": "Redaktə et",
+    "show": "Göstər"
+  },
+  "buttons": {
+    "create": "Yarat",
+    "save": "Qeyd et",
+    "logout": "Çıxış et",
+    "delete": "Sil",
+    "edit": "Redaktə et",
+    "cancel": "İmtina",
+    "confirm": "Əminsiniz?",
+    "filter": "Filter",
+    "clear": "Təmizlə",
+    "refresh": "Yenilə",
+    "show": "Göstər",
+    "undo": "Geri",
+    "import": "Import",
+    "clone": "Clone",
+    "notAccessTitle": "Buna icazəniz yoxdur"
+  },
+  "warnWhenUnsavedChanges": "Are you sure you want to leave? You have unsaved changes.",
+  "notifications": {
+    "success": "Successful",
+    "error": "Error (status code: {{statusCode}})",
+    "undoable": "You have {{seconds}} seconds to undo",
+    "createSuccess": "Successfully created {{resource}}",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "loading": "Loading",
+  "tags": {
+    "clone": "Clone"
+  },
+  "dashboard": {
+    "title": "Admin Panel"
+  },
+  "blog_posts": {
+    "blog_posts": "Jurnallar",
+    "fields": {
+      "id": "Id",
+      "title": "Başlıq",
+      "content": "Content",
+      "status": "Status",
+      "category": "Kateqoriya",
+      "createdAt": "Yaradılıb"
+    },
+    "titles": {
+      "create": "Jurnal Yarat",
+      "edit": "Jurnal Redaktə Et",
+      "list": "Jurnallar",
+      "show": "Jurnallara bax"
+    }
+  },
+  "categories": {
+    "categories": "Kateqoriyalar",
+    "fields": {
+      "id": "Id",
+      "title": "Başlıq",
+      "createdAt": "Yaradılıb"
+    },
+    "titles": {
+      "create": "Kateqoriya yarat",
+      "edit": "Kateqoriyanı redaktə et",
+      "list": "Kateqoriyalar",
+      "show": "Kateqoriyanı göstər"
+    }
+  },
+  "table": {
+    "actions": "Əməliyyatlar"
+  }
+}
