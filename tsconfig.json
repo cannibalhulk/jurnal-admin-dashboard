@@ -50,7 +50,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/blog-posts/index.jsx"  ],
+, "pages/blog-posts/index.tsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -27,6 +27,7 @@ import { authProvider } from "src/authProvider";
 import { AppIcon } from "src/components/app-icon";
 import { supabaseClient } from "src/utility";
 import '../public/globals.css'
+import '../src/styles/style1.css'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   noLayout?: boolean;
@@ -115,6 +116,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout): JSX.Element {
                       canDelete: true,
                     },
                   },
+                  
                 ]}
                 options={{
                   syncWithLocation: true,

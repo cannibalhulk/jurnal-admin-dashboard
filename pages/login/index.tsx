@@ -19,8 +19,7 @@ export default function Login() {
       title={
         <ThemedTitleV2
           collapsed={false}
-          text="refine Project"
-          icon={<AppIcon />}
+          text="Dashboard"
         />
       }
     />

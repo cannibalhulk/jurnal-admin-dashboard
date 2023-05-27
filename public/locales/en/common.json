@@ -109,7 +109,7 @@
     "title": "Dashboard"
   },
   "blog_posts": {
-    "blog_posts": "Blog Posts",
+    "blog_posts": "Posts",
     "fields": {
       "id": "Id",
       "title": "Title",
